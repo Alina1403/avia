@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="528.0" prefWidth="771.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Button layoutX="251.0" layoutY="413.0" mnemonicParsing="false" prefHeight="9.0" prefWidth="109.0" style="-fx-background-color: #196AA6;" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="Tw Cen MT" size="14.0" />
+               </font></Button>
+            <Button layoutX="423.0" layoutY="413.0" mnemonicParsing="false" prefHeight="10.0" prefWidth="109.0" style="-fx-background-color: #F79420;" text="Exit" textFill="WHITE">
+               <font>
+                  <Font name="Tw Cen MT" size="14.0" />
+               </font></Button>
+            <TextField layoutX="227.0" layoutY="279.0" prefHeight="0.0" prefWidth="319.0" />
+            <PasswordField layoutX="227.0" layoutY="351.0" prefHeight="0.0" prefWidth="319.0" />
+            <ImageView fitHeight="215.0" fitWidth="530.0" layoutX="121.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@DS2017_TP09_mono@2x.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="145.0" layoutY="282.0" prefHeight="15.0" prefWidth="76.0" text="Username:">
+               <font>
+                  <Font name="Tw Cen MT" size="15.0" />
+               </font></Label>
+            <Label layoutX="145.0" layoutY="354.0" prefHeight="14.0" prefWidth="62.0" text="Password:">
+               <font>
+                  <Font name="Tw Cen MT" size="15.0" />
+               </font></Label>
+         </children>
+      </Pane>
+   </children>
+</GridPane>
